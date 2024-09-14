@@ -164,7 +164,7 @@ def perform_clustering(algorithm, df, params):
             These results collectively demonstrate that the **MinMax ICA** dataset delivers the most effective clustering configuration in this analysis.
             """)
 
-st.set_page_config(page_title="Clustering Result", layout="wide")
+st.set_page_config(page_title="Clustering Result", layout="wide", page_icon="🍷")
 
 # Load needed datasets
 minmax_ica = pd.read_csv('MinMax_ICA.csv')
