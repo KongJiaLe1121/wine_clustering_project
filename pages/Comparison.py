@@ -7,7 +7,7 @@ import hdbscan
 import scipy.cluster.hierarchy as sch
 import altair as alt
 
-st.set_page_config(page_title="Clustering Dashboard", layout="wide")
+st.set_page_config(page_title="Clustering Dashboard", layout="wide", page_icon="🍷")
 st.markdown('<style>div.block-container{padding-top:2rem;}</style>', unsafe_allow_html=True)
 alt.themes.enable("dark")
 
