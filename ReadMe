@@ -1,0 +1,39 @@
+Clustering Algorithm Dashboard
+
+Developed by: Kong Jia Le, Jerry Tay Kien Hui, Chan Wei Xin, Tong Chun Mun. 
+This system is designed to let user understand our findings from a unsurpervised learning project.
+
+Setup Instructions:
+1. Ensure Python Environment Setup:
+  - Install pyenv on your system. (Refer to pyenv documentation for installation instructions: https://github.com/pyenv/pyenv#installation)
+  - Allocate a minimum of 1.5GB of free disk space.
+
+2. Create Python Virtual Environment:
+  - Open your terminal/command prompt.
+  - Set Python version to 3.9.4 using pyenv:
+    pyenv install 3.9.4
+    pyenv local 3.9.4
+  - Build a Python Virtual Environment named "dashboard-venv":
+    python -m venv dashboard-venv
+
+3. Activate Virtual Environment:
+  - Navigate to your project directory in the terminal/command prompt.
+  - Activate the "dashboard-venv" virtual environment:
+    dashboard-venv\Scripts\activate
+
+4. Install Required Libraries:
+  - Ensure the virtual environment is active.
+  - Install all required libraries listed in requirements.txt using pip:
+    pip install -r requirements.txt
+
+5. Run the System:
+  - Explore other modules for additional functionalities:
+    streamlit run Dashboard.py
+
+Contributors:
+- Kong Jia Le (Leader)
+- Jerry Tay Kien Hui
+- Chan Wei Xin
+- Tong Chun Mun
+
+Thank you, and we hope this system can clearly show our findings.
